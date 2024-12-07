@@ -10,7 +10,10 @@ basics:
     city: "Томск"
     countryCode: "RU"
   website: "https://vk.com/kvyugin_8"
-  summary: "Здравствуйте! Я студент, учусь на очном, уже работаю backend разработчиком. Ищу работу на позицию backend developer в продуктивной компании. В работе ценю сам процесс, развитие и коллег."
+  summary: |
+    Здравствуйте! Я студент, учусь на очном, уже работаю backend разработчиком.
+    Ищу работу на позицию backend developer в продуктивной компании.
+    В работе ценю сам процесс, развитие и коллег.
   profiles:
     - network: "Telegram"
       username: "@KViugin"
@@ -22,20 +25,36 @@ work:
     startDate: "2024-10-01"
     endDate: "2024-12-31"
     summary: "Разработка и поддержка ПО."
-  
+    techStack:
+      - ".Net core"
+      - ".Net framework"
+      - "ASP.NET"
+      - "EF Core (code first и db first подходы)"
+      - "PostgreSQL"
+      - "MsSql"
+      - "Azure Devops"
+      - "Docker"
+      - "Angular"
+      - "SonarQube"
   - company: "Tech crew"
     website: "tech-crew.ru"
     position: "backend developer"
     startDate: "2023-10-01"
     endDate: "2024-09-30"
-    summary: "Разрабатывал и поддерживал бэкенд для сайта и тг ботов."
+    summary: |
+      Разрабатывал и поддерживал бэкенд
+      для сайта и тг ботов.
     highlights:
-      - "Разрабатывал отдельный сервис авторизации, прокладывал связь между модулями через http запросы."
+      - |
+        Разрабатывал отдельный сервис авторизации,
+        прокладывал связь между модулями через http запросы.
       - "Разрабатывал парсинг телеграмм чатов любого уровня приватности."
       - "Разрабатывал парсинг кандидатов с hh.ru."
       - "Разворачивал приложения в докер контейнерах на сервере."
       - "Проводил код ревью коллегам, консультировал по проекту."
-      - "Занимался не техническими задачами - онбординг новых сотрудников, демо пользователям, планирование."
+      - |
+        Занимался не техническими задачами - онбординг новых сотрудников,
+        демо пользователям, планирование."
     techStack:
       - ".Net 6 и 7"
       - "ASP.NET"
@@ -52,95 +71,97 @@ education:
     degree: "Среднее"
     graduationYear: 2025
 
-  - institution: "МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ 'ГИМНАЗИЯ № 32'"
+  - institution: |
+      МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ
+      ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ 'ГИМНАЗИЯ № 32'
     location: "гор.Новокузнецк"
     graduationYear: 2021
 
 skills:
-    - name: "GitLab"
-      level: "Средний"
-      keywords:
-        - "Version Control"
-        - "CI/CD"
-    - name: "Angular"
-      level: "Средний"
-      keywords:
-        - "Frontend Development"
-        - "TypeScript"
-        - "Single Page Applications"
-    - name: "JavaScript"
-      level: "Средний"
-      keywords:
-        - "Web Development"
-        - "Client-Side Scripting"
-    - name: "TypeScript"
-      level: "Средний"
-      keywords:
-        - "Typed JavaScript"
-        - "Web Development"
-    - name: "RxJs"
-      level: "Средний"
-      keywords:
-        - "Reactive Programming"
-        - "Asynchronous Programming"
-    - name: "C#"
-      level: "Средний"
-      keywords:
-        - "OOP"
-        - "ASP.NET"
-        - "Entity Framework"
-    - name: "PostgreSQL"
-      level: "Средний"
-      keywords:
-        - "SQL"
-        - "Database Management"
-        - "Data Modeling"
-    - name: "MS SQL"
-      level: "Средний"
-      keywords:
-        - "SQL"
-        - "Database Administration"
-    - name: "Entity Framework"
-      level: "Средний"
-      keywords:
-        - "ORM"
-        - "Data Access"
-    - name: "ASP.NET Core"
-      level: "Средний"
-      keywords:
-        - "Web Development"
-        - "API Development"
-    - name: "GitHub"
-      level: "Средний"
-      keywords:
-        - "Version Control"
-        - "Collaboration"
-    - name: "CSS"
-      level: "Средний"
-      keywords:
-        - "Styling"
-        - "Responsive Design"
-    - name: "HTML"
-      level: "Средний"
-      keywords:
-        - "Markup"
-        - "Web Development"
-    - name: "Docker"
-      level: "Средний"
-      keywords:
-        - "Containerization"
-        - "DevOps"
+  - name: "GitLab"
+    level: "Средний"
+    keywords:
+      - "Version Control"
+      - "CI/CD"
+  - name: "Angular"
+    level: "Средний"
+    keywords:
+      - "Frontend Development"
+      - "TypeScript"
+      - "Single Page Applications"
+  - name: "JavaScript"
+    level: "Средний"
+    keywords:
+      - "Web Development"
+      - "Client-Side Scripting"
+  - name: "TypeScript"
+    level: "Средний"
+    keywords:
+      - "Typed JavaScript"
+      - "Web Development"
+  - name: "RxJs"
+    level: "Средний"
+    keywords:
+      - "Reactive Programming"
+      - "Asynchronous Programming"
+  - name: "C#"
+    level: "Средний"
+    keywords:
+      - "OOP"
+      - "ASP.NET"
+      - "Entity Framework"
+  - name: "PostgreSQL"
+    level: "Средний"
+    keywords:
+      - "SQL"
+      - "Database Management"
+      - "Data Modeling"
+  - name: "MS SQL"
+    level: "Средний"
+    keywords:
+      - "SQL"
+      - "Database Administration"
+  - name: "Entity Framework"
+    level: "Средний"
+    keywords:
+      - "ORM"
+      - "Data Access"
+  - name: "ASP.NET Core"
+    level: "Средний"
+    keywords:
+      - "Web Development"
+      - "API Development"
+  - name: "GitHub"
+    level: "Средний"
+    keywords:
+      - "Version Control"
+      - "Collaboration"
+  - name: "CSS"
+    level: "Средний"
+    keywords:
+      - "Styling"
+      - "Responsive Design"
+  - name: "HTML"
+    level: "Средний"
+    keywords:
+      - "Markup"
+      - "Web Development"
+  - name: "Docker"
+    level: "Средний"
+    keywords:
+      - "Containerization"
+      - "DevOps"
 
 languages:
-    - language: "Русский"
-      level: "Родной"
-      keywords:
-        - "Коммуникация"
-        - "Письменный"
-        - "Устный"
-    - language: "Английский"
-      level: "B1 — Средний"
-      keywords:
-        - "Чтение"
-        - "Письмо"
-        - "Разговорный"
+  - language: "Русский"
+    level: "Родной"
+    keywords:
+      - "Коммуникация"
+      - "Письменный"
+      - "Устный"
+  - language: "Английский"
+    level: "B1 — Средний"
+    keywords:
+      - "Чтение"
+      - "Письмо"
+      - "Разговорный"
