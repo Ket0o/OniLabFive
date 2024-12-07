@@ -1,4 +1,5 @@
 import yaml
+from datetime import datetime
 
 def load_resume(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -7,8 +8,12 @@ def load_resume(file_path):
 def get_skills_with_level(resume, level):
     return [skill['name'] for skill in resume.get('skills', []) if skill.get('level') == level]
 
-def get_current_courses(resume):
-    return resume.get('current_courses', [])
+def get_institutions_with_future_graduation(resume):
+    current_year = datetime.now().year
+    return [
+        edu['institution'] for edu in resume.get('education', [])
+        if edu.get('graduationYear', 0) > current_year
+    ]
 
 if __name__ == "__main__":
     resume_data = load_resume('resume.yaml')
@@ -17,6 +22,6 @@ if __name__ == "__main__":
     medium_skills = get_skills_with_level(resume_data, 'medium')
     print("Навыки с уровнем владения medium:", medium_skills)
 
-    # Пример вывода всех программ на которых я прохожу обучение в данный момент
-    current_courses = get_current_courses(resume_data)
-    print("Текущие курсы:", current_courses)
+    # Пример вывода учебных заведений с датой завершения больше текущего года
+    future_institutions = get_institutions_with_future_graduation(resume_data)
+    print("Учебные заведения с датой завершения больше текущего года:", future_institutions)
