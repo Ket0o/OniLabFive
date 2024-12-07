@@ -28,12 +28,12 @@
 1. Клонируйте репозиторий:
 
 ```bash
-   git clone https://github.com/ваш_логин/ваш_репозиторий.git
+   git clone https://github.com/Ket0o/OniLabFive.git
 ```
    Перейдите в директорию проекта:
 
 ```bash
-    cd ваш_репозиторий
+    cd OniLabFive
 ```
 
 ## Контрибьюция
