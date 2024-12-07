@@ -1,104 +1,146 @@
-resume:
-  updated: "2024-12-07T09:41:00"
-  personal_info:
-    name: "Вьюгин Кирилл Вадимович"
-    gender: "Мужчина"
-    age: 21
-    birth_date: "2003-05-30"
-    phone: "+7 (996) 4130132"
-    telegram: "@KViugin"
-    email: "kupregion3@gmail.com"
-    website: "https://vk.com/kvyugin_8"
-    location: "Томск"
-    citizenship: "Россия"
-    work_permit: "Россия"
-    relocation: false
-    business_trip: false
-  desired_position:
-    title: ".net developer"
-    specializations:
-      - "Программист"
-      - "Разработчик"
-    employment_type:
-      - "полная занятость"
-      - "частичная занятость"
-      - "стажировка"
-    work_schedule:
-      - "полный день"
-      - "сменный график"
-      - "гибкий график"
-      - "удаленная работа"
-    commute_time: "не имеет значения"
-  work_experience:
-    - company:
-        name: "Центр Финансовых Технологий, Группа компаний"
-        website: "team.cft.ru"
-        industry: "Информационные технологии, системная интеграция, интернет"
-        position: "Инженер-программист"
-        start_date: "2024-10-01"
-        end_date: "настоящее время"
-        duration: "3 месяца"
-        responsibilities:
-          - "Разработка и поддержка ПО."
-    - company:
-        name: "Tech crew"
-        website: "tech-crew.ru"
-        industry: "Информационные технологии, системная интеграция, интернет"
-        position: "backend developer"
-        start_date: "2023-10-01"
-        end_date: "2024-09-30"
-        duration: "1 год"
-        responsibilities:
-          - "Разрабатывал и поддерживал бэкенд для сайта и тг ботов."
-          - "Разрабатывал отдельный сервис авторизации, прокладывал связь между модулями через http запросы."
-          - "Разрабатывал парсинг телеграмм чатов любого уровня приватности."
-          - "Разрабатывал парсинг кандидатов с hh.ru."
-          - "Разворачивал приложения в докер контейнерах на сервере. Настраивал сеть, писал как докер компоуз файлы, так и докерфайлы."
-          - "Проводил код ревью коллегам, консультировал по проекту."
-          - "Занимался не техническими задачами - онбординг новых сотрудников, демо пользователям, планирование."
-          - "Команда стартовала с меня + 2 бэкенд разработчика + 2 фронтенд разработчика + тестировщик + project manager. Сейчас в команде 4 бэкенд разработчика, 2 фронтенд и project manager."
-        tech_stack:
-          - ".Net 6 и 7"
-          - "ASP.NET"
-          - "Mapster"
-          - "EF Core (code first подход)"
-          - "PostgreSQL"
-          - "GitLab"
-          - "GitHub"
-          - "Docker"
-          - "Portainer"
-  education:
-    - institution: "ТУСУР"
-      degree: "Среднее"
-      graduation_year: 2025
-    - institution: "МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ 'ГИМНАЗИЯ № 32'"
-      location: "гор.Новокузнецк"
-      graduation_year: 2021
-  skills:
-    languages:
-      - language: "Русский"
-        proficiency: "Родной"
-      - language: "Английский"
-        proficiency: "B1 — Средний"
-    technical_skills:
-      - "C#"
+---
+basics:
+  name: "Вьюгин Кирилл Вадимович"
+  gender: "Мужчина"
+  age: 21
+  birthDate: "2003-05-30"
+  email: "kupregion3@gmail.com"
+  phone: "+7 (996) 4130132"
+  location:
+    city: "Томск"
+    countryCode: "RU"
+  website: "https://vk.com/kvyugin_8"
+  summary: "Здравствуйте! Я студент, учусь на очном, уже работаю backend разработчиком. Ищу работу на позицию backend developer в продуктивной компании. В работе ценю сам процесс, развитие и коллег."
+  profiles:
+    - network: "Telegram"
+      username: "@KViugin"
+
+work:
+  - company: "Центр Финансовых Технологий, Группа компаний"
+    website: "team.cft.ru"
+    position: "Инженер-программист"
+    startDate: "2024-10-01"
+    endDate: "2024-12-31"
+    summary: "Разработка и поддержка ПО."
+  
+  - company: "Tech crew"
+    website: "tech-crew.ru"
+    position: "backend developer"
+    startDate: "2023-10-01"
+    endDate: "2024-09-30"
+    summary: "Разрабатывал и поддерживал бэкенд для сайта и тг ботов."
+    highlights:
+      - "Разрабатывал отдельный сервис авторизации, прокладывал связь между модулями через http запросы."
+      - "Разрабатывал парсинг телеграмм чатов любого уровня приватности."
+      - "Разрабатывал парсинг кандидатов с hh.ru."
+      - "Разворачивал приложения в докер контейнерах на сервере."
+      - "Проводил код ревью коллегам, консультировал по проекту."
+      - "Занимался не техническими задачами - онбординг новых сотрудников, демо пользователям, планирование."
+    techStack:
+      - ".Net 6 и 7"
+      - "ASP.NET"
+      - "Mapster"
+      - "EF Core (code first подход)"
       - "PostgreSQL"
-      - "MS SQL"
-      - "Entity Framework"
-      - "ASP.NET Core"
-      - "GitHub"
-      - "CSS"
-      - "HTML"
-      - "Docker"
       - "GitLab"
-      - "Angular"
-      - "JavaScript"
-      - "TypeScript"
-      - "RxJs"
-  additional_info:
-    about_me: |
-      Здравствуйте!
-      Я студент, учусь на очном, уже работаю backend разработчиком.
-      Ищу работу на позицию backend developer в продуктивной компании.
-      В работе ценю сам процесс, развитие и коллег.
-     
+      - "GitHub"
+      - "Docker"
+      - "Portainer"
+
+education:
+  - institution: "ТУСУР"
+    degree: "Среднее"
+    graduationYear: 2025
+
+  - institution: "МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ 'ГИМНАЗИЯ № 32'"
+    location: "гор.Новокузнецк"
+    graduationYear: 2021
+
+skills:
+    - name: "GitLab"
+      level: "Средний"
+      keywords:
+        - "Version Control"
+        - "CI/CD"
+    - name: "Angular"
+      level: "Средний"
+      keywords:
+        - "Frontend Development"
+        - "TypeScript"
+        - "Single Page Applications"
+    - name: "JavaScript"
+      level: "Средний"
+      keywords:
+        - "Web Development"
+        - "Client-Side Scripting"
+    - name: "TypeScript"
+      level: "Средний"
+      keywords:
+        - "Typed JavaScript"
+        - "Web Development"
+    - name: "RxJs"
+      level: "Средний"
+      keywords:
+        - "Reactive Programming"
+        - "Asynchronous Programming"
+    - name: "C#"
+      level: "Средний"
+      keywords:
+        - "OOP"
+        - "ASP.NET"
+        - "Entity Framework"
+    - name: "PostgreSQL"
+      level: "Средний"
+      keywords:
+        - "SQL"
+        - "Database Management"
+        - "Data Modeling"
+    - name: "MS SQL"
+      level: "Средний"
+      keywords:
+        - "SQL"
+        - "Database Administration"
+    - name: "Entity Framework"
+      level: "Средний"
+      keywords:
+        - "ORM"
+        - "Data Access"
+    - name: "ASP.NET Core"
+      level: "Средний"
+      keywords:
+        - "Web Development"
+        - "API Development"
+    - name: "GitHub"
+      level: "Средний"
+      keywords:
+        - "Version Control"
+        - "Collaboration"
+    - name: "CSS"
+      level: "Средний"
+      keywords:
+        - "Styling"
+        - "Responsive Design"
+    - name: "HTML"
+      level: "Средний"
+      keywords:
+        - "Markup"
+        - "Web Development"
+    - name: "Docker"
+      level: "Средний"
+      keywords:
+        - "Containerization"
+        - "DevOps"
+
+languages:
+    - language: "Русский"
+      level: "Родной"
+      keywords:
+        - "Коммуникация"
+        - "Письменный"
+        - "Устный"
+    - language: "Английский"
+      level: "B1 — Средний"
+      keywords:
+        - "Чтение"
+        - "Письмо"
+        - "Разговорный"
